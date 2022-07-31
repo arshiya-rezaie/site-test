@@ -1,0 +1,563 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#button-header{
+position: absolute;
+right: 10px;
+height: 37px;
+width: 100px;
+margin-top: 20px;
+border-radius: 10px;
+background-color: white;
+border: 1px solid black;
+font-weight: 700;
+animation-name: animation-translate;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+
+#button-header:hover{
+    background-color: rgba(204, 204, 204, 0.492);
+    border: none;
+    animation-name: animation-back-translate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+.navbar{
+    height: 100px;
+width: 100%;
+/* border: 1px solid black; */
+position: relative;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+
+ul{
+    position: absolute;
+    right: 37%;
+margin-top: 20px;
+}
+
+
+.li-header{
+  border: none;
+    border-radius: 4px;
+    height: 7px;
+ text-align: center;
+width: 60px;
+background-color: rgba(222, 222, 222, 0.623);
+}
+
+
+#img-loader{
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; */
+    float: right;
+    animation: rightrotate 5s linear infinite;
+}
+
+
+#img-header{
+    height: 80px;
+    width: 80px;
+    animation: leftrotate 7s linear infinite;
+}
+
+/* animation */
+
+@keyframes rightrotate {
+    from{transform: rotate(360deg);}
+    to{transform: rotate(0deg);}
+}
+
+@keyframes leftrotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(720deg);
+    }
+}
+
+/* animation */
+
+.button-1{
+    text-align: center;
+   height: 28px;
+   width: 140px;
+   background-color: white;
+   border-radius: 5px;
+   border: 2px solid black;
+   animation-name: animation-shadow;
+   animation-duration: 3s;
+   animation-fill-mode: forwards;
+}
+
+
+.button-1:hover{
+    background-color: rgba(204, 204, 204, 0.492);
+    border: none;
+    animation-name: animation-back-shadow;
+    animation-duration: 3s;
+}
+
+
+.p-information{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.p-information1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+
+.p-information2{
+    margin-top: 20px;
+    font-size: 15px;
+font-weight: 500;
+color: rgb(88, 88, 88);
+}
+
+
+.left{
+/* border: 1px solid black; */
+height: 350px;
+width: 250px;
+margin-left: 200px;
+position: absolute;
+display: inline-block;
+left: 40px;
+top: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+
+.center{
+   /*  border: 1px solid black; */
+    height: 350px;
+width: 250px;
+background-color: white;
+display: inline-block;
+border-radius: 10px;
+position: absolute;
+left: 550px;
+top: 10px;
+}
+
+
+.right{
+   /*  border: 1px solid black; */
+height: 350px;
+width: 250px;
+display: inline-block;
+position: absolute;
+right: 240px;
+top: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+
+.img-1{
+    height: 200px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+#div-madar{
+    height: 400px;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+
+.p-img{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 170px;
+}
+
+
+.p-gmail{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(88, 88, 88);
+    margin-top: 20px;
+}
+
+
+.p-tamas{
+font-size: 15px;
+font-weight: 300;
+color: rgb(88, 88, 88);
+margin-top: 10px;
+}
+
+
+.button-location{
+    height: 27px;
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 12px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    font-weight: 700;
+    animation-name: animation-color;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+
+.button-location:hover{
+    background-color: white ;
+    cursor: pointer;
+}
+
+
+#div-11{
+    /* border: 1px solid black; */
+    height: 190px;
+    width: 98%;
+    margin-top: 200px;
+    border-radius: 20px;
+    background-color: rgba(200, 200, 200, 0.259);
+    margin-left: 10px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    animation-name: animation-rotate;
+    animation-duration: 10s;
+}
+
+
+.p-hello{
+    text-align: center;
+margin-top: 40px;
+font-size: 18px;
+font-weight: 700;
+color: rgb(56, 56, 56);
+}
+
+
+.p-hello1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(56, 56, 56);
+}
+
+
+.p-hello2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(56, 56, 56);
+}
+
+
+.p-red{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(232, 14, 134, 0.918);
+}
+
+
+#form{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.matn{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(3, 3, 74);
+    margin-top: 150px;
+}
+
+
+.matn1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(3, 3, 74);
+}
+
+
+#div-form{
+    height: 550px;
+    width: 85%;
+   /*  border: 1px solid black; */
+position: absolute;
+top: 30px;
+left: 110px;
+border-radius: 15px;
+background-color: white;
+}
+
+
+#div-asli{
+  /*   border: 1px solid black; */
+    height: 600px;
+    width: 100%;
+    background-color: rgba(200, 200, 200, 0.259);
+    border-radius: 20px;
+   position: relative;
+}
+
+
+.user{
+    height: 25px;
+    width: 270px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    color:rgb(3, 3, 74) ;
+    margin-left: -18px;
+    animation-name: shadow;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+label{
+    font-size: 13px;
+    color: rgb(70, 70, 70);
+    margin-right: 15px;
+}
+
+
+.mail{
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    color:rgb(3, 3, 74) ;
+    margin-left: -15px;
+    animation-name: shadow;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+.pass{
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    color:rgb(3, 3, 74) ;
+    margin-left:-25px;
+    animation-name: shadow;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+.sub{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color:rgb(3, 3, 74);
+    color: white;
+}
+
+
+.sub:hover{
+    cursor: pointer;
+}
+
+/* rispansiv site(mediaquery) */
+
+
+@media (max-width:1200px) {
+    ul{
+        margin-right: -30px;
+    }
+    #div-form{
+        width: 70%;
+    }
+}
+
+
+
+@media (max-width:1100px) {
+    ul{
+        margin-right: -100px;
+    }
+}
+
+
+
+@media (max-width:1250px) {
+    .right{
+        margin-right: -200px;
+    }
+    #img-loader{
+        margin-top: -150px;
+    }
+    .left{
+        margin-left: -10px;
+    }
+    .center{
+        margin-left: -200px;
+    }
+}
+
+
+
+
+@media (max-width:890px) {
+    #img-loader{
+        height: 80px;
+        width: 80px;
+    }
+    #img-header{
+        height: 60px;
+        width: 60px;
+    }
+    ul{
+        margin-right: -200px;
+    }
+    .right{
+        margin-right: -250px;
+    }
+    .left{
+        margin-left: -35px;
+    }
+    .center{
+     margin-left: -290px;
+    }
+}
+
+
+
+@media (max-width:800px) {
+    ul{
+        margin-right: 10px;
+    }
+    .center{
+        opacity: 0;
+    }
+}
+
+
+
+@media (max-width:740px) {
+    ul{
+        margin-top: 65px;
+        margin-right: -150px;
+    }
+    .button-1{
+        margin-top: 10px;
+    }
+#img-loader{
+    opacity: 0;
+}
+}
+
+
+
+@media (max-width:540px) {
+    #button-header{
+        margin-right: 180px;
+    }
+    #img-loader{
+        opacity: 1;
+        height: 60px;
+        width: 60px;
+    }
+    .left{
+        margin-left: -39px;
+    }
+    #div-form{
+        margin-right:-200px;
+    }
+}
+
+
+
+@media (max-width:670px) {
+    #div-form{
+        width: 80%;
+        margin-left: -60px;
+    }
+}
+
+/* rispansiv site(mediaquery) */
+
+
+
+
+/* animation site */
+
+
+@keyframes animation-color {
+    35%{background-color: deeppink;}
+    70%{background-color: darkviolet;}
+    100%{background-color: rgb(30, 210, 210);}
+}
+@keyframes animation-shadow {
+    from{box-shadow: 0px 0px 0px ;}
+to{box-shadow: 5px 5px 5px  rgb(30, 210, 210) ;}
+}
+@keyframes animation-back-shadow {
+    from{box-shadow: 5px 5px 5px rgb(30, 210, 210) ;}
+    to{box-shadow: 0px 0px 0px;}
+}
+
+@keyframes animation-translate {
+    from{transform: translatey(0px);}
+    to{transform: translatey(20px);}
+}
+@keyframes animation-back-translate {
+    from{transform: translatey(20px);}
+    to{transform: translatey(0px);}
+}
+
+@keyframes animation-rotate {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(30deg);}
+} 
+@keyframes shadow {
+    from{box-shadow: 0px 0px 0px ;}
+to{box-shadow: 4px 4px 5px  rgb(30, 123, 210) ;}
+}
+
+/* animation site */
+ 
+ 
+
